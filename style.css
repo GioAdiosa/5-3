@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.leftSideNavigation {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 12px 28px 0px 28px;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    background: #E7EEFF;
+}
+
+.Logo {
+    border-bottom: 1px solid #002B81;
+}
+
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+
+
+.headerInput {
+    border: none;
+    background: #E7EEFF;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+input::placeholder {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+input {
+    all: unset;
+    width: 300px;
+}
+
+
+.mainContainer {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.logoContainer,
+.profileContainer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brooklinSimmons {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.headerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #E7EEFF;
+    padding: 20px 0px;
+}
+
+/* main-------------------------- */
+
+.locationDiv {
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #E7EEFF;
+    max-width: 176px;
+    width: 100%;
+}
+
+.locationsSpan {
+    color: #323232;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.locationCalendarSocial {
+    width: 24px;
+    height: 24px;
+}
+
+.fullmainSection {
+    display: flex;
+    flex-direction: column;
+    max-width: 1144px;
+    width: 100%;
+}
+
+.mainSecondSectionContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.AllInformation {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+
+}
+
+.villaWithDescription {
+    border-radius: 24px;
+    background: #E7EEFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    max-width: 353px;
+    width: 100%;
+}
+
+.textualDescriptionOfImages {
+    padding: 8px 12px;
+}
+
+.textualDescriptionOfImages>p {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.textualDescriptionOfImages>span {
+    color: #606060;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.divForWrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 42px;
+    margin-top: 42px;
+}
