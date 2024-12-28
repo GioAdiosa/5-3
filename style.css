@@ -130,6 +130,7 @@ input {
 .AllInformation {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     gap: 30px;
 
 }
